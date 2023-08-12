@@ -1,0 +1,14 @@
+.whatsapp-icon{
+    display: inline;
+    position: fixed;
+    top: 255px;
+    float: left;
+    left: 1420px;
+}
+
+.whatsapp-icon a img{
+    width: 85px;
+    height: 85px;
+}
+
+/* https://wa.link/2tuarf */

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.runtime-img {
+    width: 99%;
+    height: 500px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 3px;
+    border-radius: 2px;
+    margin-top: 6px;
+    background-color: rgb(247, 247, 247);
+}
+
+.main-deals-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* justify-items: center; */
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.main-deals-items {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+    box-shadow: 0px 0px 5px gray;
+
+}
+
+#TopOffer {
+    /* align-items: center; */
+    font-family: system-ui;
+    font-size: 55px;
+    margin: 25px 0px;
+
+}
+
+.view-all {
+    background-color: #0000ff;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #0000ff;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.view-all:hover{
+    background-color: #3c3cfa;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px blue;
+    font-size: 19px;
+}
+
+.main-deals-txt {
+
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: emoji;
+}
+
+.main-deals-imgs {
+    width: 170px;
+    height: 170px;
+    padding-bottom: 8px;
+    border-radius:4px ;
+}
+.main-deals-imgs:hover{
+    width: 172px;
+    height: 172px;
+    box-shadow: 0px 0px 10px blue;
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.gray {
+    color: gray;
+}
+/* -------for shoes deals----- */
+#fashionDeals{
+    font-family: system-ui;
+    font-size:45px;
+    margin: 38px 0px;
+    cursor: pointer;
+}
